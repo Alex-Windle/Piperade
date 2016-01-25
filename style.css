@@ -1,0 +1,145 @@
+header {
+	max-width:900px;
+	font-family: 'Nunito', sans-serif;
+	font-weight:lighter;
+}
+
+header ul li {
+	display:inline-block;
+}
+
+#logo {
+	padding: 10px 0 0 50px;
+}
+
+#nav-bar ul {
+	color: #a0a0a0;
+	font-size:1.2em;
+	letter-spacing:1.1px;
+	max-width:480px;
+	padding: 0 0 0 300px;
+}
+
+#nav-bar ul li {
+	padding: 0 30px 0 0;
+}
+
+#nav-bar a {
+	text-decoration:none;
+}
+
+#nav-bar a:link {
+	color:#505050;
+}
+
+#nav-bar a:visited {
+	color:black;
+}
+
+#nav-bar a:hover {
+	color:black;
+	font-weight:bolder;
+}
+
+/*I would like to see the NAV flush left with the Mission Statement,
+and stay aligned when expanding or minimizing the browser. How can I
+do this?*/ 
+
+#mission-statement {     
+	max-width:550px;     
+	margin-right:235px;     
+	font-family: 'Nunito', sans-serif;     
+	font-weight:lighter;     
+	font-size:1.65em;     
+	letter-spacing: 0.9px;
+	float:right; 
+}
+
+#mission-statement-subtitle {
+	color: #505050;
+	font-style:italic;
+}
+
+#page-wrap {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#body-center {     
+	max-width:900px;     
+	margin: 0 auto;      
+	text-align:center; 
+}
+
+/*This purpose of this section is to push the WEBSITE image slightly to right,
+/*and the COLOR GRID slightly to left, in order to create the appearance of
+/*being centered. How do I center everything (best practice)?*/
+
+							#body-center img {
+								padding: 0 0 0 0px;
+							}
+
+							#body-center ul {
+								max-width:700px;
+								margin: 0 auto;
+								padding: 0 0px 0 0;
+
+							}
+
+/* END */
+
+#body-center ul li {
+	display:inline;
+}
+
+#body-center ul li img {
+	padding: 30px 15px 0 15px ;
+}
+
+footer {
+	max-width:700px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+footer ul {
+	list-style:none;
+	float:right;
+}
+
+footer ul li {
+	font-family: 'Nunito', sans-serif;
+	font-weight:lighter;
+}
+
+#location-social-media {
+	font-size:1.55em;
+	letter-spacing: 0.9px;
+}
+
+#information {
+	color: #a0a0a0;
+	font-size:1.1em;
+}
+
+#span {
+	color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
